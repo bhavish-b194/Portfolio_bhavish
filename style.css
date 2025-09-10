@@ -1,68 +1,22 @@
-/* Make footer stick to bottom */
-html, body {
-  height: 100%;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-}
-
 body {
-  font-family: 'Segoe UI', Arial, sans-serif;
-  background-color: #f8f9fa;
+  font-family: 'Poppins', sans-serif;
+  background: #f4f8fc;
+  min-height: 100vh;
 }
-
-/* Sections should expand */
-main {
-  flex: 1;
-}
-
-.section {
-  padding: 80px 0;
-}
-
-/* Navbar */
-.navbar {
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-.nav-link {
+.navbar a {
+  color: white !important;
   font-weight: 500;
+  cursor: pointer;
 }
-.nav-link.active {
-  color: #ffd700 !important;
+.skill-box {
+  background: #fff;
+  padding: 28px 24px;
+  border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(13,110,253,0.08);
+  transition: 0.3s;
+  border: 2px solid #e0e7ff;
 }
-
-/* Footer */
-.footer {
-  background: #0d6efd;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  margin-top: auto;
+.skill-box:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 12px 32px rgba(13,110,253,0.15);
 }
-
-/* Profile image */
-img.profile {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 5px solid #fff;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
-}
-/* Profile Image Styling */
-.profile-pic {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border: 5px solid #fff;
-  border-radius: 50%; /* makes it circular */
-}
-
-.profile-pic-lg {
-  width: 220px;
-  height: 220px;
-  object-fit: cover;
-  border: 5px solid #fff;
-  border-radius: 12px; /* for about page rectangular image */
-}
-
