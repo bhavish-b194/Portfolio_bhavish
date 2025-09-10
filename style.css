@@ -49,3 +49,20 @@ img.profile {
   border: 5px solid #fff;
   box-shadow: 0 6px 20px rgba(0,0,0,0.2);
 }
+/* Profile Image Styling */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 5px solid #fff;
+  border-radius: 50%; /* makes it circular */
+}
+
+.profile-pic-lg {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border: 5px solid #fff;
+  border-radius: 12px; /* for about page rectangular image */
+}
+
